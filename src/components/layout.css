@@ -39,14 +39,6 @@ progress {
 template {
   display: none;
 }
-a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
-a:active,
-a:hover {
-  outline-width: 0;
-}
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -619,4 +611,11 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.header{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+  background-color: limegreen;
 }

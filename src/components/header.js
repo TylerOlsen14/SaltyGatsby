@@ -10,9 +10,10 @@ const ListLink = props => (
 )
 
 const Header = ({ siteTitle }) => (
-  <header>
+  <header style={{display: 'flex', flexDirection: 'row', justifyContent:'space-around', alignItems: 'center'}}>
     <Link to="/" style={{ textShadow: `none`, backgroundImage: `none`}}>
-      <h3 style={{ display: `inline`}}>Salty Rogue Real Estate</h3>        
+      <h3>Salty Rogue Real Estate</h3>        
+      {/* <h3 style={{ display: `inline`}}>Salty Rogue Real Estate</h3>         */}
     </Link>
     <ul style={{ listStyle: `none`, float: `right` }}>
       <ListLink to="/">Home</ListLink>
