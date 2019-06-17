@@ -4,7 +4,7 @@ import React from "react"
 import Logo from '../components/logo'
 
 const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem`}}>
+  <li style={{ display: `inline-block`, marginRight: `1rem`, }}>
     <Link to={props.to}>{props.children}</Link>
   </li>
 )
@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
       <h3>Salty Rogue Real Estate</h3>        
       {/* <h3 style={{ display: `inline`}}>Salty Rogue Real Estate</h3>         */}
     </Link>
-    <ul style={{ listStyle: `none`, float: `right` }}>
+    <ul style={{ listStyle: `none`, float: `right`,  }}>
       <ListLink to="/">Home</ListLink>
       <ListLink to="/about">About</ListLink>
       <ListLink to="/contact">Contact</ListLink>
